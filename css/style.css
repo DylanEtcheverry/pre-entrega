@@ -19,27 +19,9 @@
     margin: 0 auto;
 }
 /* a partir de 991 pixeles hasta 1280 hace lo siguiente*/
-@media (min-width: 991px) { 
- /* index */
-    .nav-index {
-     justify-content: space-between;
-     align-items: center;
-     padding: 2rem 2rem;
-     margin: 0;
-     padding: 0;
-     height: 3rem;
-    }
-    /* lista desordenada*/
-    .left {
-        margin-left: 40rem;
-    }
-    /* titulo / nombre del juego*/
-    .titulo{
-        height: 13rem;
-    }
-}
+
 /* a partir de 1280 pixeles (desktop)*/
-@media (min-width: 1280px) { 
+@media (min-width: 1200px) { 
  /* index */
     .nav-index {
      justify-content: space-between;
@@ -50,7 +32,7 @@
      height: 3rem;
     }
     /* lista desordenada*/
-    .left {
+    .linkeo-index {
         margin-left: 40rem;
     }
     /* titulo / nombre del juego*/
