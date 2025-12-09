@@ -1,0 +1,78 @@
+
+/*version movil*/
+.body-index {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    color: white;
+}
+.fondo-oscuro {
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+.boton-descarga, .button-descripcion {
+    padding: 0.5rem;
+    color: black;
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+/* a partir de 991 pixeles hasta 1280 hace lo siguiente*/
+@media (min-width: 991px) { 
+ /* index */
+    .nav-index {
+     justify-content: space-between;
+     align-items: center;
+     padding: 2rem 2rem;
+     margin: 0;
+     padding: 0;
+     height: 3rem;
+    }
+    /* lista desordenada*/
+    .left {
+        margin-left: 40rem;
+    }
+    /* titulo / nombre del juego*/
+    .titulo{
+        height: 13rem;
+    }
+}
+/* a partir de 1280 pixeles (desktop)*/
+@media (min-width: 1280px) { 
+ /* index */
+    .nav-index {
+     justify-content: space-between;
+     align-items: center;
+     padding: 2rem 2rem;
+     margin: 0;
+     padding: 0;
+     height: 3rem;
+    }
+    /* lista desordenada*/
+    .left {
+        margin-left: 40rem;
+    }
+    /* titulo / nombre del juego*/
+    .titulo{
+        height: 13rem;
+    }
+}
+
+.carousel {
+    /*achica la imagen de anchura*/
+    width: 40rem;
+    /*achica la imagen de altura*/
+    height: 25rem;
+    /*separa de arriba la imagen y costados*/
+    padding: 0.5rem;
+}
+.carousel-img {
+    width: 38rem;    /* tamaño de imagen */
+    height: 20rem;
+    margin: 0 auto;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
