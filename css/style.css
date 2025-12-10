@@ -23,6 +23,7 @@
 @media (min-width: 1200px) { 
  /* index */
     .nav-index {
+        display: flex;
      justify-content: space-between;
      align-items: center;
      padding: 2rem 2rem;
