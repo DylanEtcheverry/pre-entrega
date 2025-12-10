@@ -26,14 +26,13 @@
         display: flex;
      justify-content: space-between;
      align-items: center;
-     padding: 2rem 2rem;
      margin: 0;
      padding: 0;
      height: 3rem;
     }
     /* lista desordenada*/
     .linkeo-index {
-        margin-left: 40rem;
+        margin-left: auto;
     }
     /* titulo / nombre del juego*/
     .titulo{
@@ -41,20 +40,23 @@
     }
 }
 
-.carousel {
-    /*achica la imagen de anchura*/
-    width: 40rem;
+.carousel-item {
     /*achica la imagen de altura*/
     height: 25rem;
     /*separa de arriba la imagen y costados*/
     padding: 0.5rem;
 }
 .carousel-img {
-    width: 38rem;    /* tamaño de imagen */
+   /* tamaño de imagen */
+    width: 38rem;  
+    /*altura de la imagen*/  
     height: 20rem;
+    /* bordes */
     margin: 0 auto;
+    /* tamaño de imagen para movil*/
     max-width: 100%;
     object-fit: cover;
-    margin: 0 auto;
+
     display: block;
+    
 }
