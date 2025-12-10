@@ -18,9 +18,8 @@
     display: block;
     margin: 0 auto;
 }
-/* a partir de 991 pixeles hasta 1280 hace lo siguiente*/
 
-/* a partir de 1280 pixeles (desktop)*/
+/* a partir de 1200 pixeles (desktop)*/
 @media (min-width: 1200px) { 
  /* index */
     .nav-index {
