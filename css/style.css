@@ -56,7 +56,7 @@
     /* tamaño de imagen para movil*/
     max-width: 100%;
     object-fit: cover;
-
+display: flex;
     display: block;
     
 }
