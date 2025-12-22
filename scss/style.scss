@@ -1,20 +1,12 @@
-
-
+@import "./separacion/body";
+@import "./separacion/variantes";
+@import "./separacion/titulos";
 /*version movil*/
-.body-index {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    height: 100%;
-    background-size: cover;
-    color: white;
-}
-.fondo-oscuro {
-    background-color: rgba(0, 0, 0, 0.425);
-}
+
 
 .boton-descarga, .button-descripcion {
     padding: 0.5rem;
-    color: black;
+    color: $boton;
     border-radius: 1rem;
     display: block;
     margin: 0 auto;

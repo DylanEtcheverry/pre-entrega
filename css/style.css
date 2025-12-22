@@ -1,7 +1,6 @@
 @charset "UTF-8";
-/*version movil*/
 .body-index {
-  background-image: url(../img/background.png);
+  background-image: url(/img/background.png);
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
@@ -12,9 +11,19 @@
   background-color: rgba(0, 0, 0, 0.425);
 }
 
+.titulo {
+  color: #ff0000;
+}
+
+/*etiquetas h2*/
+.historia, .lista {
+  color: #b58eff;
+}
+
+/*version movil*/
 .boton-descarga, .button-descripcion {
   padding: 0.5rem;
-  color: black;
+  color: #000000;
   border-radius: 1rem;
   display: block;
   margin: 0 auto;
