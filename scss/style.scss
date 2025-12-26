@@ -1,16 +1,9 @@
 @import "./separacion/body";
 @import "./separacion/variantes";
 @import "./separacion/titulos";
-/*version movil*/
+@import "./separacion/mixins";
 
 
-.boton-descarga, .button-descripcion {
-    padding: 0.5rem;
-    color: $boton;
-    border-radius: 1rem;
-    display: block;
-    margin: 0 auto;
-}
 
 /* a partir de 1200 pixeles (desktop)*/
 @media (min-width: 1200px) { 
